@@ -1,0 +1,151 @@
+* {
+  border: none;
+  box-sizing: border-box;
+  font-family:
+    "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    color: #333;
+  font-size: 1rem;
+  font-style: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+h2 {
+  font-size: 2em;
+}
+p {
+  text-align: center;
+}
+header {
+  display: flex;
+  margin-top: 50px;
+}
+header img {
+  height: 50px;
+}
+section {
+  border: 1px solid #ddd;
+  padding: 50px 0;
+}
+.margin-l {
+  margin-bottom: 50px;
+}
+.spacing-l {
+  letter-spacing: 4px;
+}
+.spacing-m {
+  letter-spacing: 1px;
+}
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+header .img {
+  height: 150px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav a :hover {
+  color: #999;
+}
+.top {
+  background-image: url(img/top.jpg);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-wrapper p {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.8;
+}
+.top-wrapper dt {
+  float: left;
+}
+header h1 {
+  font-size: 3em;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-01 {
+  text-align: left;
+}
+.about img {
+  width: 150px;
+}
+dl {
+  display: inline-block;
+  vertical-align: top;
+}
+dt {
+  float: left;
+}
+dd {
+  margin-left: 130px;
+}
+dt, dd {
+  line-height: 1.5em;
+}
+.skills img {
+  width: 700px
+}
+.works-box {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.works img{
+  border: 1px solid #ddd;
+  width: 250px;
+  margin: 20px;
+}
+
+/* contactフォーム要素 */
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.label {
+  margin-bottom: 5px;
+}
+.inputs {
+  border: solid 1px #aaa;
+  height: 200px;
+  padding: 2px;
+  width: 400px;
+}
+input[type="text"],input[type="email"] {
+  border: solid 1px #aaa;
+  height: 20px;
+  padding: 2px;
+}
+input[type="submit"] {
+  background: #555;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 40px;
+}
